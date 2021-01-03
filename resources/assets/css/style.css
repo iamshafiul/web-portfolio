@@ -1,0 +1,130 @@
+body {
+    font-family: 'Redressed', cursive;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+.hero_section {
+    padding-top: 60px;
+    background-color: #7EC3B0;
+    height: 400px;
+    width: 100%;
+}
+
+.hero_section_half {
+    width: 40%;
+    float: left;
+    margin-left: 30px;
+    padding-left: 30px;
+}
+
+.hero_section_half img {
+    max-width: 100%;
+    border: 9px solid #ddd;
+    border-radius: 50%;
+}
+
+.hero_section_half h1 {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.hero_section_half h1 span#my_text_color {
+    color: #b14e1f;
+    text-shadow: -3px 3px #fff;
+}
+
+.hero_section_half h2 {
+    font-size: 33px;
+}
+
+.hero_section_half p {
+    font-size: 25px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.hero_section_half .hero_button a {
+    text-decoration: none;
+    display: inline-block;
+    background-image: linear-gradient(to top right, rgba(167, 28, 28, 0.76), rgba(231, 231, 74, 0.829));
+    color: #fff;
+    padding: 9px 28px;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+
+/* dream section  */
+
+.dream_section {
+    background-color: #6b7766ba;
+    width: 100%;
+    height: 400px;
+    padding-top: 70px;
+}
+
+.dream_section h2 {
+    color: #fff;
+}
+
+
+/* experience section  */
+
+.experience_section {
+    padding-top: 60px;
+    background-color: #7EC3B0;
+    height: 400px;
+    width: 100%;
+}
+
+.experience_section h2.ex {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #fff;
+    margin-left: 30px;
+}
+
+.experience_section h2 {
+    margin-bottom: 20px;
+}
+
+#experience_left {
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000;
+    background-color: #fff;
+    height: 65%;
+    padding: 20px;
+    border-radius: 5px;
+    background: linear-gradient(transparent, #aaa, transparent);
+}
+
+#experience_right {
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000;
+    background-color: #fff;
+    height: 65%;
+    padding: 20px;
+    border-radius: 5px;
+    background: linear-gradient(transparent, #aaa, transparent);
+}
+
+
+/* start footer  */
+
+footer p {
+    text-align: center;
+    font-size: 22px;
+}
